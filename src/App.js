@@ -32,7 +32,7 @@ function App() {
   <div className='app-container'>
     <div className='header-container'>
       <h1>Piękne zdjęcia Kwadratów z opisami po Łacinie</h1>
-      <button onClick={buttonClick}> button</button>
+      <button onClick={buttonClick}>Pobierz Kwadraty</button>
     </div>
     <div className='cards-container'>
     {dataState.slice(0, random).map((poke)=>{
